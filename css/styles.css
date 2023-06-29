@@ -220,58 +220,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-/*--------------PORTFOLIO-----------------*/
-
-.portfolio-header-logo {
-    color: var(--accent-color);
-    font-size: 18px;
-    font-family: Raleway;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    background: #FFF;
-}
-
-.portfolio-header-logo-accent {
-    color: var(--main-text-color);
-    font-size: 18px;
-    font-family: Raleway;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    background: #FFF;
-}
-
-.portfolio-header-menu-link {
-    color: var(--main-text-color);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    background: #FFF;
-}
-
-.portfolio-header-menu-link:hover,
-.portfolio-header-menu-link:focus {
-    color: var(--color-blau);
-}
-
-.portfolio-header-address-info {
-    color: var(--additional-color);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    background: #FFF;
-}
-
-.portfolio-header-address-info:hover,
-.portfolio-header-address-info:focus {
-    color: var(--color-blau);
-}
-
-/*--------------MENU-----------------*/
+/*--------------PORTFOLIOMENU-----------------*/
 
 .menu-button-link-accent {
     color: #FFF;
