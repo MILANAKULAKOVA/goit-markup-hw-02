@@ -1,14 +1,14 @@
 :root {
     --accent-color: #4D5AE5;
-    --main-text-color: #2E2F42;
-    --background-color: #2E2F42;
-    --additional-color: #434455;
+    --main-color: #2E2F42;
     --color-white: #F4F4FD;
     --color-blau: #404BBF;
 }
 
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .visually-hidden {
@@ -44,7 +44,7 @@ body {
 }
 
 .header-logo-accent {
-    color: var(--main-text-color);
+    color: var(--main-color);
     font-size: 18px;
     font-family: Raleway;
     font-weight: 800;
@@ -53,7 +53,7 @@ body {
 }
 
 .header-menu-link {
-    color: var(--main-text-color);
+    color: var(--main-color);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -66,7 +66,7 @@ body {
 }
 
 .header-address-info {
-    color: var(--additional-color);
+    color: #434455;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -82,12 +82,11 @@ body {
 /*--------------HERO-----------------*/
 
 .hero {
-    background: var(--background-color);
+    background: var(--main-color);
 }
 
 .hero-title {
     color: #FFF;
-    text-align: center;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
@@ -114,12 +113,8 @@ body {
 
 /*--------------ADVANTAGES-----------------*/
 
-.advantages {
-    background: #FFF;
-}
-
 .advantages-subtitle {
-    color: var(--main-text-color);
+    color: var(--main-color);
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -128,7 +123,6 @@ body {
 }
 
 .advantages-item-text {
-    color: var(--additional-color);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -139,8 +133,7 @@ body {
 /*--------------WEDOING-----------------*/
 
 .wedoing-title {
-    color: var(--main-text-color);
-    text-align: center;
+    color: var(--main-color);
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -150,13 +143,8 @@ body {
 
 /*--------------TEAM-----------------*/
 
-.team {
-    background: var(--color-white);
-}
-
 .team-title {
-    color: var(--main-text-color);
-    text-align: center;
+    color: var(--main-color);
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -165,8 +153,7 @@ body {
 }
 
 .team-name {
-    color: var(--main-text-color);
-    text-align: center;
+    color: var(--main-color);
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -175,7 +162,6 @@ body {
 }
 
 .team-profession {
-    color: var(--additional-color);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -186,7 +172,7 @@ body {
 /*--------------FOOTER-----------------*/
 
 .footer {
-    background: var(--background-color)
+    background: var(--main-color);
 }
 
 .footer-logo {
@@ -197,7 +183,6 @@ body {
     font-weight: 800;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
 }
 
 .footer-logo-accent {
@@ -208,7 +193,6 @@ body {
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
 }
 
 .footer-text {
@@ -223,7 +207,6 @@ body {
 /*--------------PORTFOLIOMENU-----------------*/
 
 .menu-button-link-accent {
-    color: #FFF;
     text-align: center;
     font-size: 16px;
     font-family: Roboto;
@@ -250,12 +233,7 @@ body {
 
 /*--------------OPTIONS-----------------*/
 
-.options-list {
-    background: #FFF;
-}
-
 .options-list-head {
-    color: var(--main-text-color);
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -264,7 +242,6 @@ body {
 }
 
 .options-list-function {
-    color: var(--additional-color);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
