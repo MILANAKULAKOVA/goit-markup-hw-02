@@ -232,6 +232,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: var(--color-blau);
+    cursor: pointer;
 }
 
 .menu-button-link {
@@ -244,6 +245,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: var(--color-white);
+    cursor: pointer;
 }
 
 /*--------------OPTIONS-----------------*/
