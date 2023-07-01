@@ -33,7 +33,7 @@ body {
     color: var(--accent-color);
     font-size: 18px;
     font-style: normal;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -44,7 +44,7 @@ body {
     color: var(--main-color);
     font-size: 18px;
     font-style: normal;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -103,6 +103,7 @@ body {
     color: #FFF;
     font-size: 16px;
     font-style: normal;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -198,7 +199,7 @@ body {
 .footer-logo {
     color: var(--accent-color);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 800;
     line-height: 1.17;
@@ -209,7 +210,7 @@ body {
 .footer-logo-accent {
     color: var(--color-white);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 800;
     line-height: 1.17;
