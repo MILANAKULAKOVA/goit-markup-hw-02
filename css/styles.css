@@ -137,22 +137,34 @@ body {
 
 .wedoing-title {
     color: var(--main-color);
+    text-align: center;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 /*--------------TEAM-----------------*/
 
+.team {
+    background-color: var(--color-white);
+}
+
+.team-title-list {
+    background-color: #FFFFFF;
+}
+
 .team-title {
     color: var(--main-color);
+    text-align: center;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .team-name {
