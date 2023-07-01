@@ -231,7 +231,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background: var(--color-white);
+    background-color: var(--color-white);
     cursor: pointer;
 }
 
@@ -242,7 +242,7 @@ body {
 
 .menu-button-link:hover,
 .menu-button-link:focus {
-    background-color: #404BBF;
+    background-color: #404BBF ;
 }
 
 /*--------------OPTIONS-----------------*/
