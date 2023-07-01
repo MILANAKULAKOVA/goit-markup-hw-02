@@ -168,6 +168,10 @@ body {
     text-transform: capitalize;
 }
 
+.team-title-list {
+    background-color: #FFFFFF;
+}
+
 .team-name {
     color: var(--main-color);
     font-size: 20px;
