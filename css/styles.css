@@ -64,6 +64,10 @@ body {
     color: var(--color-blau);
 }
 
+.header-address {
+    font-style: normal;
+}
+
 .header-address-info {
     color: #434455;
     font-size: 16px;
