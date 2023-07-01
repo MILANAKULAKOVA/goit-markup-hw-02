@@ -184,8 +184,9 @@ body {
     font-family: Raleway;
     font-style: normal;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footer-logo-accent {
@@ -196,6 +197,7 @@ body {
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footer-text {
