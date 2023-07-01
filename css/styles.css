@@ -240,6 +240,11 @@ body {
     color: #FFFFFF;
 }
 
+.menu-button-link:hover,
+.menu-button-link:focus {
+    background-color: #404BBF;
+}
+
 /*--------------OPTIONS-----------------*/
 
 .options-list-head {
